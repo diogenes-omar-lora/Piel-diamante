@@ -57,7 +57,7 @@
 }
 
 .logo1 .letras{
-    color: rgb(243, 210, 63);
+    color: rgb(0, 0, 0);
     position: relative;
     top: 60px;
     left: 10px;
@@ -93,8 +93,10 @@
         top: -20px;
     }
 }
+
 .card{
     margin-bottom: 30px;
+    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.56);
 }
 /* img */
 .img{
@@ -105,7 +107,9 @@
     margin-left: 30%;
 }
 .baner{
-    float: left;
+    /* margin-left: 10%; */
+    float:left;
+    padding-right: 10px;
     width: 250px;
     height: 220px;
 }
@@ -115,4 +119,17 @@
 }
 .precio{
     font-weight: bold;
+}
+.inst{
+    background: linear-gradient(90deg, rgb(243, 210, 63), aqua );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    list-style: none;
+}
+.nosotros{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
