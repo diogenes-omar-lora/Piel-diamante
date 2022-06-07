@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+.informacion{
+    font-family: 'Times New Roman', Times, serif;
+}
 /* menu */
 .navbar{
     margin: 15px;
@@ -27,15 +30,69 @@
 }
 /* carrusel */
 .carousel-inner{
-    border-radius: 5px;
+    border-radius: 3px;
+}
+.carousel{
+    box-shadow: 2px 2px 9px 6px rgba(0,0,0,0.3);
+    margin-bottom: 50px;
 }
 /* logo */
 .logo{
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 30px;
-    margin-left: 20px;
-    color: aqua;
+    margin-left: 10px;
+}
+.logo{
+    background: linear-gradient(90deg, rgb(243, 210, 63), aqua );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.pie{
+    background: linear-gradient(90deg, rgb(243, 210, 63), aqua );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.logo1 .letras{
+    color: rgb(243, 210, 63);
+    position: relative;
+    top: 60px;
+    left: 10px;
+    display: inline-block;
+    font-size: 40px;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #ccc,
+    0 3px 0 #ccc,
+    0 4px 0 #ccc,
+    0 5px 0 #ccc,
+    0 6px 0 transparent,
+    0 7px 0 transparent,
+    0 8px 0 transparent,
+    0 9px 0 transparent,
+    0 10px 10px rgba(255, 255, 255, .4);
+    animation: salto .9s ease infinite alternate;
+}
+.logo1 .letras:nth-child(2){animation-delay: .1s;}
+.logo1 .letras:nth-child(3){animation-delay: .2s;}
+.logo1 .letras:nth-child(4){animation-delay: .3s;}
+.logo1 .letras:nth-child(5){animation-delay: .4s;}
+.logo1 .letras:nth-child(6){animation-delay: .5s;}
+.logo1 .letras:nth-child(7){animation-delay: .6s;}
+.logo1 .letras:nth-child(8){animation-delay: .7s;}
+.logo1 .letras:nth-child(9){animation-delay: .8s;}
+.logo1 .letras:nth-child(10){animation-delay: .9s;}
+.logo1 .letras:nth-child(11){animation-delay: 1s;}
+.logo1 .letras:nth-child(12){animation-delay: 1.1s;}
+.logo1 .letras:nth-child(13){animation-delay: 1.2s;}
+@keyframes salto{
+    100%{
+        top: -20px;
+    }
+}
+.card{
+    margin-bottom: 30px;
 }
 /* img */
 .img{
@@ -44,4 +101,16 @@
 /* buton */
 .bton{
     margin-left: 30%;
+}
+.baner{
+    float: left;
+    width: 250px;
+    height: 220px;
+}
+.ofertas{
+    font-weight: bold;
+    margin-left: 20%;
+}
+.precio{
+    font-weight: bold;
 }
