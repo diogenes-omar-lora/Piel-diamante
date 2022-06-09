@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.body{
+    background-color: rgb(113, 5, 255);
+}
 .informacion{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -19,7 +23,7 @@
     color: white;
 }
 .navbar-nav  li a:hover{
-   color: aqua;
+   color: rgb(166, 3, 199);
    border-radius: 5px;
    transition: all 0.6s;
 }
@@ -40,11 +44,11 @@
 /* logo */
 .logo{
     font-weight: bold;
-    font-size: 30px;
-    margin-left: 10px;
+    font-size: 25px;
+    margin-left: 9px;
 }
 .logo{
-    background: linear-gradient(90deg, rgb(243, 210, 63), aqua );
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(146, 7, 226) );
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -104,7 +108,7 @@
 }
 /* buton */
 .bton{
-    margin-left: 30%;
+    margin-left: 28%;
 }
 .baner{
     /* margin-left: 10%; */
@@ -114,7 +118,7 @@
 }
 .ofertas{
     font-weight: bold;
-    margin-left: 20%;
+    margin-left: 27%;
 }
 .precio{
     font-weight: bold;
@@ -131,4 +135,7 @@
     font-size: 18px;
     padding-top: 20px;
     padding-left: 10px;
+}
+.tit{
+    background-color: rgb(146, 74, 240);
 }
