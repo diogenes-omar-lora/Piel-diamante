@@ -9,6 +9,10 @@
 }
 .informacion{
     font-family: 'Times New Roman', Times, serif;
+    /* margin-left: -20px; */
+}
+.informacion1{
+    font-family: 'Times New Roman', Times, serif;
 }
 /* menu */
 .navbar{
