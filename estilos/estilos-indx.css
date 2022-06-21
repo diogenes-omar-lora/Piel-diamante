@@ -121,8 +121,9 @@
     height: 260px;
 }
 .grupo{
-    width: 70%;
+    width: 75%;
     height: 500px;
+    border-radius: 30px;
 }
 .ofertas{
     font-weight: bold;
